@@ -54,7 +54,7 @@
 
   .mainSearch {
     position: absolute;
-    bottom: 30px;
+    bottom: 130px;
 
     @include media-below(xl) {
       position: relative;
@@ -92,7 +92,7 @@
     }
 
     &__content {
-      padding-top: 120px;
+      padding-top: 55px;
 
       @include media-below(xl) {
         padding-top: 120px;
