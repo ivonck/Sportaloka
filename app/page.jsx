@@ -1,5 +1,5 @@
 import Wrapper from "@/components/layout/Wrapper";
-import MainHome from "../app/(homes)/home_1/page";
+import MainHome from "../app/(homes)/home_2/page";
 
 export const metadata = {
   title: "Sportaloka || Feel the Freedom with Every Step",
