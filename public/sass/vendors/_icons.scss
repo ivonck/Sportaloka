@@ -310,3 +310,64 @@
 .icon-facebook:before {
   content: "\e928";
 }
+
+.icon-para:before {
+  content: "";
+  display: inline-block;
+  width: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  height: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  background-image: url('/img/icons/para.png'); /* Ganti 'nama-ikon.png' dengan nama file gambar Anda */
+  background-size: contain; /* Atau 'cover' tergantung preferensi Anda */
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.icon-diving:before {
+  content: "";
+  display: inline-block;
+  width: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  height: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  background-image: url('/img/icons/diving.png'); /* Ganti 'nama-ikon.png' dengan nama file gambar Anda */
+  background-size: contain; /* Atau 'cover' tergantung preferensi Anda */
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.icon-camping:before {
+  content: "";
+  display: inline-block;
+  width: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  height: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  background-image: url('/img/icons/camping.png'); /* Ganti 'nama-ikon.png' dengan nama file gambar Anda */
+  background-size: contain; /* Atau 'cover' tergantung preferensi Anda */
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.icon-hiking:before {
+  content: "";
+  display: inline-block;
+  width: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  height: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  background-image: url('/img/icons/hiking.png'); /* Ganti 'nama-ikon.png' dengan nama file gambar Anda */
+  background-size: contain; /* Atau 'cover' tergantung preferensi Anda */
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.icon-rafting:before {
+  content: "";
+  display: inline-block;
+  width: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  height: 25px; /* Sesuaikan dengan ukuran gambar Anda */
+  background-image: url('/img/icons/rafting.png'); /* Ganti 'nama-ikon.png' dengan nama file gambar Anda */
+  background-size: contain; /* Atau 'cover' tergantung preferensi Anda */
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+

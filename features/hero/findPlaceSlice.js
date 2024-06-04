@@ -2,13 +2,12 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   tabs: [
-    { id: 1, name: "Hotel", icon: "icon-bed" },
-    { id: 2, name: "Tour", icon: "icon-destination" },
-    { id: 3, name: "Activity", icon: "icon-ski" },
-    { id: 4, name: "Holyday Rentals", icon: "icon-home" },
-    { id: 5, name: "Car", icon: "icon-car" },
-    { id: 6, name: "Cruise", icon: "icon-yatch" },
-    { id: 7, name: "Flights", icon: "icon-tickets" },
+    { id: 1, name: "Paralayang", icon: "icon-para" },
+    { id: 2, name: "Diving", icon: "icon-diving" },
+    { id: 3, name: "Hiking", icon: "icon-hiking" },
+    { id: 4, name: "Rafting", icon: "icon-rafting" },
+    { id: 5, name: "Camping", icon: "icon-camping" },
+
   ],
   currentTab: "Hotel",
 };
