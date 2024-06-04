@@ -10,28 +10,28 @@ const SearchBar = () => {
   const locationSearchContent = [
     {
       id: 1,
-      name: "London",
-      address: "Greater London, United Kingdom",
+      name: "Bali",
+      address: "Province of Bali, Indonesia",
     },
     {
       id: 2,
-      name: "New York",
-      address: "New York State, United States",
+      name: "Yogyakarta",
+      address: "province of Yogyakarta, Indonesia",
     },
     {
       id: 3,
-      name: "Paris",
-      address: "France",
+      name: "Medan",
+      address: "Province of Sumatera Utara, Indonesia",
     },
     {
       id: 4,
-      name: "Madrid",
-      address: "Spain",
+      name: "bogor",
+      address: "province of west java, Indonesia",
     },
     {
       id: 5,
-      name: "Santorini",
-      address: "Greece",
+      name: "Batu",
+      address: "Province of east java, Indonesia",
     },
   ];
 

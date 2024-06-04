@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+
 const initialState = {
   tabs: [
     { id: 1, name: "Paralayang", icon: "icon-para" },
