@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import Blog4 from "@/components/blog/Blog4";
 import Brand2 from "@/components/brand/Brand2";
-import Footer2 from "@/components/footer/footer-2";
+import DefaultFooter from "@/components/footer/default";
 import Header2 from "@/components/header/header-2";
 import Hero2 from "@/components/hero/hero-2";
 import BlockGuide from "@/components/home/home-2/BlockGuide";
@@ -9,7 +9,6 @@ import CallToActions from "@/components/home/home-2/CallToActions";
 import Subscribe from "@/components/home/home-2/Subscribe";
 import Testimonial from "@/components/home/home-2/Testimonial";
 import TestimonialRating from "@/components/home/home-2/TestimonialRating";
-import Travellers from "@/components/home/home-2/Travellers";
 import FilterHotels3 from "@/components/hotels/FilterHotels3";
 
 export const metadata = {
@@ -108,7 +107,7 @@ const home_2 = () => {
       <CallToActions />
       {/* End CallToActions Section */}
 
-      <Footer2 />
+      <DefaultFooter />
       {/* End Footer Section */}
     </>
   );

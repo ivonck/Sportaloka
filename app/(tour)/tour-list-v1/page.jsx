@@ -8,8 +8,8 @@ import Pagination from "@/components/tour-list/common/Pagination";
 import Sidebar from "@/components/tour-list/tour-list-v1/Sidebar";
 
 export const metadata = {
-  title: "Tour List v1 || GoTrip - Travel & Tour React NextJS Template",
-  description: "GoTrip - Travel & Tour React NextJS Template",
+  title: "Sportaloka || Feel the Freedom with Every Step",
+  description: "Adventure Portal",
 };
 
 const index = () => {
@@ -21,15 +21,12 @@ const index = () => {
       {/* header top margin */}
 
       <Header2 />
-      {/* End Header 1 */}
+      {/* End Header 1 */ /*bagian search atas*/}
 
       <section className="pt-40 pb-40 bg-light-2">
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <div className="text-center">
-                <h1 className="text-30 fw-600">Adventure in Indonesia</h1>
-              </div>
               {/* End text-center */}
               <MainFilterSearchBox />
             </div>

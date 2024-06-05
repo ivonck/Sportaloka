@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import "photoswipe/dist/photoswipe.css";
 import { hotelsData } from "@/data/hotels";
-import Header11 from "@/components/header/header-11";
+import Header2 from "@/components/header/header-2";
 import Overview from "@/components/hotel-single/Overview";
 import PopularFacilities from "@/components/hotel-single/PopularFacilities";
 import PropertyHighlights from "@/components/hotel-single/PropertyHighlights";
@@ -15,10 +15,6 @@ import DetailsReview from "@/components/hotel-single/guest-reviews/DetailsReview
 import ReplyForm from "@/components/hotel-single/ReplyForm";
 import ReplyFormReview from "@/components/hotel-single/ReplyFormReview";
 import Facilities from "@/components/hotel-single/Facilities";
-import Image from "next/image";
-import Surroundings from "@/components/hotel-single/Surroundings";
-import HelpfulFacts from "@/components/hotel-single/HelpfulFacts";
-import Faq from "@/components/faq/Faq";
 import Hotels2 from "@/components/hotels/Hotels2";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
@@ -40,8 +36,8 @@ const HotelSingleV1Dynamic = ({ params }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <Header11 />
-      {/* End Header 1 */}
+      <Header2 />
+      {/* End Header 2 */}
 
       <TopBreadCrumb />
       {/* End top breadcrumb */}
@@ -186,105 +182,6 @@ const HotelSingleV1Dynamic = ({ params }) => {
         {/* End .container */}
       </section>
       {/* End facilites section */}
-
-      <section className="pt-40">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <div className="px-24 py-20 rounded-4 bg-light-2">
-                <div className="row x-gap-20 y-gap-20 items-center">
-                  <div className="col-auto">
-                    <div className="flex-center size-60 rounded-full bg-white">
-                      <Image
-                        width={30}
-                        height={30}
-                        src="/img/icons/health.svg"
-                        alt="icon"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-auto">
-                    <h4 className="text-18 lh-15 fw-500">
-                      Extra health &amp; safety measures
-                    </h4>
-                    <div className="text-15 lh-15">
-                      This property has taken extra health and hygiene measures
-                      to ensure that your safety is their priority
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* End health &  safety measures section */}
-
-      <section className="pt-40">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <h3 className="text-22 fw-500">Hotel surroundings</h3>
-            </div>
-          </div>
-          {/* End .row */}
-
-          <div className="row x-gap-50 y-gap-30 pt-20">
-            <Surroundings />
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End hotel surroundings */}
-
-      <section className="pt-40">
-        <div className="container">
-          <div className="pt-40 border-top-light">
-            <div className="row">
-              <div className="col-12">
-                <h3 className="text-22 fw-500">Some helpful facts</h3>
-              </div>
-            </div>
-            {/* End .row */}
-
-            <div className="row x-gap-50 y-gap-30 pt-20">
-              <HelpfulFacts />
-            </div>
-            {/* End .row */}
-          </div>
-          {/* End .pt-40 */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End helpful facts surroundings */}
-
-      <section id="faq" className="pt-40 layout-pb-md">
-        <div className="container">
-          <div className="pt-40 border-top-light">
-            <div className="row y-gap-20">
-              <div className="col-lg-4">
-                <h2 className="text-22 fw-500">
-                  FAQs about
-                  <br /> The Crown Hotel
-                </h2>
-              </div>
-              {/* End .row */}
-
-              <div className="col-lg-8">
-                <div className="accordion -simple row y-gap-20 js-accordion">
-                  <Faq />
-                </div>
-              </div>
-              {/* End .col */}
-            </div>
-            {/* End .row */}
-          </div>
-          {/* End .pt-40 */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End Faq about sections */}
 
       <section className="layout-pt-md layout-pb-lg">
         <div className="container">
