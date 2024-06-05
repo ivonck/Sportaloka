@@ -54,7 +54,7 @@ const SearchBar = () => {
             <input
               autoComplete="off"
               type="search"
-              placeholder="Destination, attraction, etc"
+              placeholder="Destination, attraction"
               className="text-white header-search"
               value={searchValue}
               onChange={(e) => setSearchValue(e.target.value)}

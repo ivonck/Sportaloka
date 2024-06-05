@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 import "photoswipe/dist/photoswipe.css";
 import { hotelsData } from "@/data/hotels";
-import DefaultHeader from "@/components/header/default-header";
+import Header2 from "@/components/header/header-2";
 import RatingTag from "@/components/hotel-single/RatingTag";
 import TopBreadCrumb from "@/components/hotel-single/TopBreadCrumb";
 import AvailableRooms2 from "@/components/hotel-single/AvailableRooms2";
@@ -37,23 +37,8 @@ const HotelSingleV2Dynamic = ({ params }) => {
       <div className="header-margin"></div>
       {/* header top margin */}
 
-      <DefaultHeader />
+      <Header2 />
       {/* End DefaultHeader */}
-
-      <div className="py-10 bg-dark-2">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <FilterBox2 />
-            </div>
-          </div>
-        </div>
-        {/* End .contaienr */}
-      </div>
-      {/* End Search filter top */}
-
-      <StickyHeader2 hotel={hotel} />
-      {/* End StickyHeader2 */}
 
       <TopBreadCrumb />
       {/* End top breadcrumb */}

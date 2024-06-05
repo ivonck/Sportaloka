@@ -21,7 +21,7 @@ const StickyHeader2 = ({ hotel }) => {
   return (
     <div className={`singleMenu js-singleMenu ${header ? "-is-active" : ""}`}>
       <div className="col-12">
-        <div className="py-10 bg-dark-2">
+        <div className="py-10 bg-dark-3">
           <div className="container">
             <div className="row">
               <div className="col-12">

@@ -1,4 +1,3 @@
-
 'use client'
 
 import Link from "next/link";
@@ -28,7 +27,7 @@ const Header1 = () => {
 
   return (
     <>
-      <header className={`header ${navbar ? "bg-dark-1 is-sticky" : ""}`}>
+      <header className="header bg-dark-3">
         <div className="header__container container">
           <div className="row justify-between items-center">
             <div className="col-auto mobile-col">
