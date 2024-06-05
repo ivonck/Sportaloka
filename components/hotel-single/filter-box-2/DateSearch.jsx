@@ -1,27 +1,21 @@
-
 'use client'
 
 import React, { useState } from "react";
 import DatePicker, { DateObject } from "react-multi-date-picker";
 
 const DateSearch = () => {
-  const [dates, setDates] = useState([
-    new DateObject().setDay(15),
-    new DateObject().setDay(14).add(1, "month"),
-  ]);
+  const [date, setDate] = useState(new DateObject());
 
   return (
     <div className="text-15 text-light-1 ls-2 lh-16 custom_dual_datepicker">
       <DatePicker
         inputClass="custom_input-picker"
         containerClassName="custom_container-picker"
-        value={dates}
-        onChange={setDates}
-        numberOfMonths={2}
+        value={date}
+        onChange={setDate}
+        numberOfMonths={1}
         offsetY={10}
-        range
-        rangeHover
-        format="MMMM DD YYYY"
+        format="MMMM DD"
       />
     </div>
   );
