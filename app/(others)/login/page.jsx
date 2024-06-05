@@ -19,7 +19,7 @@ const LogIn = () => {
       {/* header top margin */}
 
       <DefaultHeader />
-      {/* End Header 1 */}
+      {/* DefaultHeader */}
 
       <section className="layout-pt-lg layout-pb-lg bg-blue-2">
         <div className="container">
