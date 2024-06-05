@@ -47,7 +47,7 @@ const Index = () => {
                 You Like To Go?
               </h1>
               <p className="z-2 text-white mt-20">
-                Checkout Beautiful Places Arround the World.
+              Discover Your Next Adventure!
               </p>
 
               <MainFilterSearchBox />

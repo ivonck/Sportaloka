@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import FilterHotelsTabs from "./filter-tabs/FilterHotelsTabs";
 import FilterHotels from "./FilterHotels";
 
 export default function FilterHotels3() {
@@ -20,12 +19,6 @@ export default function FilterHotels3() {
           </div>
           {/* End .col-auto */}
 
-          <div className="col-auto tabs -pills-2 ">
-            <FilterHotelsTabs
-              filterOption={filterOption}
-              setFilterOption={setFilterOption}
-            />
-          </div>
           {/* End .col-auto */}
         </div>
         {/* End .row */}
