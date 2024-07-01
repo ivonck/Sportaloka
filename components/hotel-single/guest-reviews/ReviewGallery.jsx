@@ -9,8 +9,6 @@ const ReviewGallery = () => {
   const reviewGalleryImg = [
     "/img/testimonials/1/1.png",
     "/img/testimonials/1/2.png",
-    "/img/testimonials/1/3.png",
-    "/img/testimonials/1/4.png",
   ];
   return (
     <Gallery>

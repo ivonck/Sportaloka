@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import CurrenctyMegaMenu from "../CurrenctyMegaMenu";
+// import CurrenctyMegaMenu from "../CurrenctyMegaMenu";
 import LanguageMegaMenu from "../LanguageMegaMenu";
 import LocationSearch from "./LocationSearch";
 import MobileMenu from "../MobileMenu";
@@ -80,7 +80,7 @@ const Header1 = () => {
             <div className="col-auto">
               <div className="d-flex items-center">
                 <div className="row x-gap-20 items-center xxl:d-none">
-                  <CurrenctyMegaMenu textClass="text-white" />
+                  {/* <CurrenctyMegaMenu textClass="text-white" /> */}
                   {/* End Megamenu for Currencty */}
 
                   {/* Start vertical devider*/}
@@ -100,7 +100,7 @@ const Header1 = () => {
                     href="/login"
                     className="button px-30 fw-400 text-14 -white bg-white h-50 text-dark-1"
                   >
-                    Become An Expert
+                    Become a Pathner
                   </Link>
                   <Link
                     href="/signup"

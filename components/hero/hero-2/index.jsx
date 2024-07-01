@@ -2,7 +2,7 @@
 'use client'
 
 import { useSelector, useDispatch } from "react-redux";
-import { addCurrentTab } from "../../../features/hero/findPlaceSlice";
+// import { addCurrentTab } from "../../../features/hero/findPlaceSlice";
 import MainFilterSearchBox from "./MainFilterSearchBox";
 
 const Index = () => {
@@ -19,7 +19,7 @@ const Index = () => {
       <div className="container">
         <div className="masthead__tabs">
           <div className="tabs -bookmark-2 js-tabs">
-            <div className="tabs__controls d-flex items-center js-tabs-controls">
+            {/* <div className="tabs__controls d-flex items-center js-tabs-controls">
               {tabs?.map((tab) => (
                 <button
                   key={tab?.id}
@@ -32,7 +32,7 @@ const Index = () => {
                   {tab?.name}
                 </button>
               ))}
-            </div>
+            </div> */}
           </div>
           {/* End tabs */}
         </div>

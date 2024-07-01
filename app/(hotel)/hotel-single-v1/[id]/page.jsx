@@ -6,12 +6,10 @@ import Overview from "@/components/hotel-single/Overview";
 import PopularFacilities from "@/components/hotel-single/PopularFacilities";
 import StickyHeader from "@/components/hotel-single/StickyHeader";
 import TopBreadCrumb from "@/components/hotel-single/TopBreadCrumb";
-import SidebarRight from "@/components/hotel-single/SidebarRight";
+// import SidebarRight from "@/components/hotel-single/SidebarRight";
 import AvailableRooms from "@/components/hotel-single/AvailableRooms";
-import ReviewProgress from "@/components/hotel-single/guest-reviews/ReviewProgress";
 import DetailsReview from "@/components/hotel-single/guest-reviews/DetailsReview";
 import ReplyForm from "@/components/hotel-single/ReplyForm";
-import ReplyFormReview from "@/components/hotel-single/ReplyFormReview";
 import Hotels2 from "@/components/hotels/Hotels2";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
@@ -49,7 +47,7 @@ const HotelSingleV1Dynamic = ({ params }) => {
       <section className="pt-30">
         <div className="container">
           <div className="row y-gap-30">
-            <div className="col-xl-8">
+            <div className="col-xl-15">
               <div className="row y-gap-40">
 
             
@@ -75,9 +73,9 @@ const HotelSingleV1Dynamic = ({ params }) => {
             </div>
             {/* End .col-xl-8 */}
 
-            <div className="col-xl-4">
+            {/* <div className="col-xl-4">
               <SidebarRight hotel={hotel} />
-            </div>
+            </div> */}
             {/* End .col-xl-4 */}
           </div>
           {/* End .row */}
@@ -109,8 +107,7 @@ const HotelSingleV1Dynamic = ({ params }) => {
           </div>
           {/* End .row */}
 
-          <ReviewProgress />
-          {/* End review with progress */}
+
 
           <div className="pt-40">
             <DetailsReview />
@@ -146,8 +143,7 @@ const HotelSingleV1Dynamic = ({ params }) => {
               </div>
               {/* End .row */}
 
-              <ReplyFormReview />
-              {/* End ReplyFormReview */}
+
 
               <ReplyForm />
             </div>
