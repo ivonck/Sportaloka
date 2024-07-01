@@ -6,8 +6,7 @@ import DatePicker, { DateObject } from "react-multi-date-picker";
 
 const DateSearch = () => {
   const [dates, setDates] = useState([
-    new DateObject().setDay(15),
-    new DateObject().setDay(14).add(1, "month"),
+    new DateObject() // Mengatur tanggal default ke hari ini
   ]);
 
   return (
@@ -17,7 +16,7 @@ const DateSearch = () => {
         containerClassName="custom_container-picker"
         value={dates}
         onChange={setDates}
-        numberOfMonths={2}
+        numberOfMonths={1}
         offsetY={10}
         range
         rangeHover
