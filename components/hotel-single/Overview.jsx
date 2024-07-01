@@ -8,10 +8,7 @@ const Overview = () => {
         you will find all information about our listing.
         <br />
         <br />
-        2-room terraced house on 2 levels. Comfortable and cosy furnishings: 1
-        room with 1 french bed and radio. Shower, sep. WC. Upper floor: (steep
-        stair) living/dining room with 1 sofabed (110 cm, length 180 cm), TV.
-        Exit to the balcony. Small kitchen (2 hot plates, oven,
+        Parangtritis Beach is one of the best place near Yogyakarta central to go for a paragliding adventure as the south west wind here is suitable and not too strong. Your instructor or driver will drive you up to a high cliff, which will be the starting point to take off. Before you start, your instructor will provide a short safety briefing and you have to listen carefully. Once you have equipped yourself with the necessary gears to paraglide, prepare yourself for the fun!
       </p>
       <a
         href="#"

@@ -4,8 +4,6 @@ import { hotelsData } from "@/data/hotels";
 import Header2 from "@/components/header/header-2";
 import Overview from "@/components/hotel-single/Overview";
 import PopularFacilities from "@/components/hotel-single/PopularFacilities";
-import PropertyHighlights from "@/components/hotel-single/PropertyHighlights";
-import RatingTag from "@/components/hotel-single/RatingTag";
 import StickyHeader from "@/components/hotel-single/StickyHeader";
 import TopBreadCrumb from "@/components/hotel-single/TopBreadCrumb";
 import SidebarRight from "@/components/hotel-single/SidebarRight";
@@ -14,7 +12,6 @@ import ReviewProgress from "@/components/hotel-single/guest-reviews/ReviewProgre
 import DetailsReview from "@/components/hotel-single/guest-reviews/DetailsReview";
 import ReplyForm from "@/components/hotel-single/ReplyForm";
 import ReplyFormReview from "@/components/hotel-single/ReplyFormReview";
-import Facilities from "@/components/hotel-single/Facilities";
 import Hotels2 from "@/components/hotels/Hotels2";
 import CallToActions from "@/components/common/CallToActions";
 import DefaultFooter from "@/components/footer/default";
@@ -54,11 +51,8 @@ const HotelSingleV1Dynamic = ({ params }) => {
           <div className="row y-gap-30">
             <div className="col-xl-8">
               <div className="row y-gap-40">
-                <div className="col-12">
-                  <h3 className="text-22 fw-500">Property highlights</h3>
-                  <PropertyHighlights />
-                </div>
-                {/* End .col-12 Property highlights */}
+
+            
 
                 <div id="overview" className="col-12">
                   <Overview />
@@ -75,10 +69,7 @@ const HotelSingleV1Dynamic = ({ params }) => {
                 </div>
                 {/* End .col-12 Most Popular Facilities */}
 
-                <div className="col-12">
-                  <RatingTag />
-                </div>
-                {/* End .col-12 This property is in high demand! */}
+
               </div>
               {/* End .row */}
             </div>
@@ -99,7 +90,7 @@ const HotelSingleV1Dynamic = ({ params }) => {
         <div className="container">
           <div className="row pb-20">
             <div className="col-auto">
-              <h3 className="text-22 fw-500">Available Rooms</h3>
+              <h3 className="text-22 fw-500">Available Packages</h3>
             </div>
           </div>
           {/* End .row */}
@@ -165,23 +156,7 @@ const HotelSingleV1Dynamic = ({ params }) => {
       </section>
       {/* End Reply Comment box section */}
 
-      <section className="mt-40" id="facilities">
-        <div className="container">
-          <div className="row x-gap-40 y-gap-40">
-            <div className="col-12">
-              <h3 className="text-22 fw-500">Facilities of this Hotel</h3>
-              <div className="row x-gap-40 y-gap-40 pt-20">
-                <Facilities />
-              </div>
-              {/* End .row */}
-            </div>
-            {/* End .col-12 */}
-          </div>
-          {/* End .row */}
-        </div>
-        {/* End .container */}
-      </section>
-      {/* End facilites section */}
+
 
       <section className="layout-pt-md layout-pb-lg">
         <div className="container">

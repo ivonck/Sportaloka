@@ -14,7 +14,7 @@ export default function GalleryOne({hotel}) {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="oqNZOOWF8qM"
+        videoId=""
         onClose={() => setOpen(false)}
       />
     <section className="pt-40">
@@ -71,7 +71,7 @@ export default function GalleryOne({hotel}) {
                     href="/booking-page"
                     className="button h-50 px-24 -dark-1 bg-blue-1 text-white"
                   >
-                    Select Room <div className="icon-arrow-top-right ml-15" />
+                    Select Package <div className="icon-arrow-top-right ml-15" />
                   </Link>
                 </div>
               </div>
@@ -110,8 +110,8 @@ export default function GalleryOne({hotel}) {
 
               <div className="galleryGrid__item">
                 <Item
-                  original="/img/gallery/1/2.png"
-                  thumbnail="/img/gallery/1/2.png"
+                  original="/img/paragliding/yogyakarta/y2.jpg"
+                  thumbnail="/img/paragliding/yogyakarta/y2.jpg"
                   width={450}
                   height={375}
                 >
@@ -119,7 +119,7 @@ export default function GalleryOne({hotel}) {
                     <img
                       ref={ref}
                       onClick={open}
-                      src="/img/gallery/1/2.png"
+                      src="/img/paragliding/yogyakarta/y2.jpg"
                       alt="image"
                       className="rounded-4"
                       role="button"
@@ -131,7 +131,7 @@ export default function GalleryOne({hotel}) {
 
               <div className="galleryGrid__item relative d-flex">
                 <img
-                  src="/img/gallery/1/3.png"
+                  src="/img/paragliding/yogyakarta/y5.jpg"
                   alt="image"
                   className="rounded-4"
                   role="button"
@@ -150,7 +150,7 @@ export default function GalleryOne({hotel}) {
 
               <div className="galleryGrid__item">
                 <Item
-                  original="/img/gallery/1/4.png"
+                  original="/img/paragliding/yogyakarta/y4.jpg"
                   thumbnail="/img/gallery/1/4.png"
                   width={450}
                   height={375}
@@ -159,7 +159,7 @@ export default function GalleryOne({hotel}) {
                     <img
                       ref={ref}
                       onClick={open}
-                      src="/img/gallery/1/4.png"
+                      src="/img/paragliding/yogyakarta/y4.jpg"
                       alt="image"
                       className="rounded-4"
                       role="button"
@@ -171,7 +171,7 @@ export default function GalleryOne({hotel}) {
 
               <div className="galleryGrid__item relative d-flex">
                 <img
-                  src="/img/gallery/1/5.png"
+                  src="/img/paragliding/yogyakarta/y3.jpg"
                   alt="image"
                   className="rounded-4"
                 />

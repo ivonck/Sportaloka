@@ -1,12 +1,7 @@
 const PopularFacilities = () => {
   return (
     <>
-      <div className="col-md-5">
-        <div className="d-flex x-gap-15 y-gap-15 items-center">
-          <i className="icon-no-smoke"></i>
-          <div className="text-15">Non-smoking rooms</div>
-        </div>
-      </div>
+
 
       <div className="col-md-5">
         <div className="d-flex x-gap-15 y-gap-15 items-center">
@@ -22,12 +17,6 @@ const PopularFacilities = () => {
         </div>
       </div>
 
-      <div className="col-md-5">
-        <div className="d-flex x-gap-15 y-gap-15 items-center">
-          <i className="icon-kitchen"></i>
-          <div className="text-15">Kitchen</div>
-        </div>
-      </div>
 
       <div className="col-md-5">
         <div className="d-flex x-gap-15 y-gap-15 items-center">
