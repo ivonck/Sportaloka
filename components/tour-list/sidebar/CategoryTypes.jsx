@@ -1,10 +1,10 @@
 const CategoryTypes = () => {
   const categories = [
-    { name: "Tours", count: 92 },
-    { name: "Attractions", count: 45 },
-    { name: "Day Trips", count: 21 },
-    { name: "Outdoor Activities", count: 78 },
-    { name: "Concerts & Shows", count: 679 },
+    { name: "Bali", count: 92 },
+    { name: "Yogyakarta", count: 45 },
+    { name: "Jawa Timur", count: 21 },
+    { name: "Jawa Barat", count: 78 },
+    { name: "Jawa Tengah", count: 679 },
   ];
 
   return (

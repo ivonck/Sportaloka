@@ -79,12 +79,12 @@ const GuestSearch = () => {
         <div className="d-flex">
           <i className="icon-compass text-20 text-light-1 mt-5"></i>
           <div className="ml-10">
-            <h4 className="text-15 fw-500 ls-2 lh-16">Number of Guests</h4>
+            <h4 className="text-15 fw-500 ls-2 lh-16">Jumlah Tamu</h4>
             <div className="text-15 text-light-1 ls-2 lh-16">
               <span className="js-count-adult">{guestCounts.Adults}</span>{" "}
-              locals -{" "}
+              lokal -{" "}
               <span className="js-count-child">{guestCounts.Children}</span>{" "}
-              foreigns
+              mancanegara
             </div>
           </div>
           {/* End ml-10 */}
