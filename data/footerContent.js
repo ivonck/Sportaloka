@@ -4,10 +4,10 @@ module.exports = [
     title: "Company",
     menuList: [
       { name: "About Us", routerPath: "/" },
-      { name: "Careers", routerPath: "/" },
+      // { name: "Careers", routerPath: "/" },
       { name: "Blog", routerPath: "/" },
-      { name: "Press", routerPath: "/" },
-      { name: "Gift Cards", routerPath: "/" },
+      // { name: "Press", routerPath: "/" },
+      // { name: "Gift Cards", routerPath: "/" },
     ],
   },
   {
@@ -15,7 +15,7 @@ module.exports = [
     title: "Support",
     menuList: [
       { name: "Contact", routerPath: "/" },
-      { name: "Legal Notice", routerPath: "/" },
+      // { name: "Legal Notice", routerPath: "/" },
       { name: "Privacy Policy", routerPath: "/" },
       { name: "Terms and Conditions", routerPath: "/" },
       { name: "Sitemap", routerPath: "/" },

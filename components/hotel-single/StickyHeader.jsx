@@ -30,13 +30,13 @@ const StickyHeader = ({ hotel }) => {
                   <a href="#overview">Overview</a>
                 </div>
                 <div className="col-auto">
+                  <a href="#facilities">Facilities</a>
+                </div>
+                <div className="col-auto">
                   <a href="#rooms">Package</a>
                 </div>
                 <div className="col-auto">
                   <a href="#reviews">Reviews</a>
-                </div>
-                <div className="col-auto">
-                  <a href="#facilities">Facilities</a>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@ const StickyHeader = ({ hotel }) => {
                   <div className="text-14">
                     From{" "}
                     <span className="text-22 text-dark-1 fw-500">
-                      US${hotel?.price}
+                      IDR {hotel?.price}
                     </span>
                   </div>
                 </div>

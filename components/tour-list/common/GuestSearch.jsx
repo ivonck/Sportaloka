@@ -84,7 +84,7 @@ const GuestSearch = () => {
               <span className="js-count-adult">{guestCounts.Adults}</span>{" "}
               locals -{" "}
               <span className="js-count-child">{guestCounts.Children}</span>{" "}
-              foreigns
+              foreigners
             </div>
           </div>
           {/* End ml-10 */}

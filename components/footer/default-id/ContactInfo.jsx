@@ -2,13 +2,13 @@ const ContactInfo = () => {
   const contactContent = [
     {
       id: 1,
-      title: "Customer Care",
+      title: "Layanan Pelanggan",
       action: "tel:+(62) 123 456 7890",
       text: "+(62) 123 456 7890",
     },
     {
       id: 2,
-      title: "Need live support?",
+      title: "Butuh bantuan saat ini?",
       action: "mailto:hi@sportaloka",
       text: "hi@sportaloka.com",
     },

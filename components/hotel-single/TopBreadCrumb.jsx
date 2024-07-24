@@ -9,7 +9,7 @@ const TopBreadCrumb = () => {
               {/* End .col-auto */}
               <div className="col-auto">&gt;</div>
               {/* End .col-auto */}
-              <div className="col-auto">Tenants</div>
+              <div className="col-auto">Tandem Flying Sites</div>
               {/* End .col-auto */}
               <div className="col-auto">&gt;</div>
               {/* End .col-auto */}
